@@ -4,5 +4,5 @@ function calcularIMC() {
 
     const imc = (peso / (altura * altura)).toFixed(2);
 
-    document.querySelector("p").innerHTML = imc;
+    document.getElementById("resultado").innerHTML = imc;
     }
